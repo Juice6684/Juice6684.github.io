@@ -20,3 +20,7 @@ img {
     max-width: 80%;
     height: auto;
 }
+
+small {
+    font-size: 1rem;
+}
