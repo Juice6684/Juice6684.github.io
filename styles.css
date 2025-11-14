@@ -78,20 +78,21 @@ small {
     color: #3498db;
 }
 
-.hero {
-    background: linear-gradient(135deg, #470b96 0%, #764ba2 100%);
+.text-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding: 2rem;
     border-radius: 8px;
     margin-bottom: 2rem;
 }
 
-.hero h1 {
+.text-box h1 {
     color: white;
     border-bottom: 3px solid #ecf0f1;
     margin-top: 0;
 }
-.hero p {
+
+.text-box p {
     color: white;
     margin-top: 0;
 }
