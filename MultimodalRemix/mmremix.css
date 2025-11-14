@@ -1,0 +1,58 @@
+/* Multimodal Remix specific layout overrides
+   This file is intended to be loaded only by pages under /MultimodalRemix/
+   It makes those pages use more horizontal real estate while leaving the
+   site-wide styles in /styles.css unchanged. */
+
+/* Reset page-level spacing so content can go edge-to-edge */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    margin: 0;
+    border-radius: 0;
+    padding: 1rem 2rem;
+}
+
+.text-box {
+    border-radius: 0;
+    padding: 2rem 2rem 1rem 2rem;
+    margin: 0;
+}
+
+.project-card {
+    margin: 1rem 2rem;
+    border-left-width: 6px;
+}
+
+p {
+    max-width: none;
+    margin: 0 2rem 1rem 2rem;
+}
+
+img.large,
+img {
+    max-width: 100%;
+    margin: 1rem 2rem;
+}
+
+h1,
+h2 {
+    margin-left: 2rem;
+}
+
+/* Small screens: keep content readable */
+@media (max-width: 520px) {
+    .nav-container,
+    .text-box,
+    .project-card,
+    p,
+    img {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h1, h2 { margin-left: 1rem; }
+}

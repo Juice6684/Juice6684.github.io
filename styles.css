@@ -115,3 +115,43 @@ small {
     margin-top: 0;
     color: #2c3e50;
 }
+
+/* Scoped full-screen layout for pages that should use the whole viewport
+   Activate by adding class="full-screen" to the page <body> tag */
+body.full-screen {
+    margin: 0;
+    padding: 0;
+}
+
+body.full-screen .nav-container {
+    margin: 0;
+    border-radius: 0;
+    padding: 1rem 2rem;
+}
+
+body.full-screen .text-box {
+    border-radius: 0;
+    padding: 2rem 2rem 1rem 2rem;
+    margin: 0;
+}
+
+body.full-screen .project-card {
+    margin: 1rem 2rem;
+    border-left-width: 6px;
+}
+
+body.full-screen p {
+    max-width: none;
+    margin: 0 2rem 1rem 2rem;
+}
+
+body.full-screen img.large,
+body.full-screen img {
+    max-width: 100%;
+    margin: 1rem 2rem;
+}
+
+body.full-screen h1,
+body.full-screen h2 {
+    margin-left: 2rem;
+}
