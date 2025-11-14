@@ -15,10 +15,15 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 **Hey I'm Jaden, a Cyber Security major at Iowa State University**
-Things I'm interested in:
+
+### Things I'm interested in:
 - Linux
 - Minecraft
 - Pop music
 - Enjoying good stories
 
-If you want to talk to me, you can contact me via my school email (jadenliu@iastate.edu) or my work email (jadenliu2006@proton.me)
+## Contact me
+
+If you want to talk to me, you can contact me via:
+- School email: [jadenliu@iastate.edu](mailto:jadenliu@iastate.edu)
+- Work email: [jadenliu2006@proton.me](mailto:jadenliu2006@proton.me)
