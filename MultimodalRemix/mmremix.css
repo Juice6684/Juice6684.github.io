@@ -31,7 +31,16 @@ p {
     margin: 0 2rem 1rem 2rem;
 }
 
-img.large,
+img.large {
+    max-width: 100%;
+    margin: 1rem 2rem;
+}
+
+img.small {
+    max-width: 40%;
+    margin: 1rem 2rem;
+}
+
 img {
     max-width: 100%;
     margin: 1rem 2rem;
