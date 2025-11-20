@@ -43,9 +43,9 @@ img {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Make images block-level so text does not wrap beside them */
+    display: block;
     margin: 1rem 0;
-    float: left;
-    margin: 0 15px 15px 0;
 }
 
 .large {
