@@ -71,6 +71,18 @@ small {
     margin-top: 0.5rem;
 }
 
+.image-row {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.image-row img {
+    flex: 0 1 calc(50% - 0.5rem);
+    display: block;
+}
+
 img + p small {
     clear: left;
 }
